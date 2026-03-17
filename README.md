@@ -1,5 +1,4 @@
 # Omnes Ventos ⚓
-
 ### A Stochastic Monte Carlo Analysis and Probabilistic Race Strategy for the IMOCA 60 Class
 
 > *"In tranquillo esse quisque gubernator potest."*
@@ -41,15 +40,16 @@ Given that wind is uncertain, which route should a skipper choose?
 
 ## Key Results
 
-| Route | Mean Finish | Std | Best Case |
-|-------|------------|-----|-----------|
-| Conservative | 110.1 days | 3.4 days | 101.8 days |
-| Nominal | 109.1 days | 3.3 days | 100.7 days |
-| **Aggressive** | **105.9 days** | **3.2 days** | **97.8 days** |
+| Route | Mean Finish | Std | Median | Best Case | Worst Case |
+|-------|-------------|-----|--------|-----------|------------|
+| Conservative | 109.6 days | 4.5 days | 109.2 days | 99.8 days | 125.4 days |
+| Nominal | 108.6 days | 4.4 days | 108.3 days | 98.2 days | 124.2 days |
+| **Aggressive** | **105.5 days** | **4.3 days** | **105.3 days** | **95.0 days** | **120.5 days** |
 
 The model confirms what real skippers know: going south is faster.
-Charlie Dalin won the 2024-2025 Vendée Globe in 64 days, 19 hours —
-the gap between simulation and reality points to exciting next steps.
+Charlie Dalin won the 2024-2025 Vendée Globe in 64 days, 19 hours,
+22 minutes, and 49 seconds — the gap between simulation and reality
+points to exciting next steps.
 
 ---
 
@@ -69,5 +69,4 @@ Math for Developers — Final Exam Project, March 2026
 
 ## References
 
-See Section 9 of the notebook for full references.
-
+See Section 8 of the notebook for full references.
